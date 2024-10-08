@@ -1,0 +1,28 @@
+
+
+// styles.scss
+
+// styles.scss
+
+$primary-color: #007bff; // Define a primary color variable
+
+.login-container {
+    background-color: lighten($primary-color, 25%); // Use the primary color variable
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.login-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: $primary-color; // Use the primary color variable
+    text-align: center;
+}
+
+.login-input {
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}

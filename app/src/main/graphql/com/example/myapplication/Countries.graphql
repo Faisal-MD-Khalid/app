@@ -1,0 +1,20 @@
+query GetCountries {
+    countries {
+        code
+        name
+        native
+        phone
+        continent {
+            code
+            name
+        }
+        currency
+        languages {
+            code
+            name
+        }
+        emoji
+        emojiU
+        # Add the capital field here if available in your schema
+    }
+}

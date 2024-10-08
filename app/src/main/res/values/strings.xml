@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="open_nav">Open Navigation</string>
+    <string name="close_nav">Close Navigation</string>
+    <string name="add_button_description">add_button_description</string>
+    <string name="my_api_key">AIzaSyBCS6I6RFB7MMu2QVJe41J8TGhm-7o78sw</string>
+    <string name="upload_video_message">upload video</string>
+
+    <!-- Other string resources -->
+
+
+    <string-array name="religions_array">
+        <item>Muslim</item>
+        <item>Hindu</item>
+        <item>Christian</item>
+        <!-- Add other religions here -->
+    </string-array>
+
+    <!-- Add arrays for classifications of each religion -->
+    <string-array name="muslim_classifications">
+        <item>Sunni</item>
+        <item>Shia</item>
+        <!-- Add other classifications for Muslim -->
+    </string-array>
+
+    <string-array name="hindu_classifications">
+        <item> Brahmins</item>
+        <item>Kshatriyas</item>
+        <item>Vaishyas</item>
+        <item>Shudras</item>
+
+
+    </string-array>
+
+    <string-array name="christian_classifications">
+        <item> catholic</item>
+        <item> protestant</item>
+        <item> orthodox</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/baseline_add_home_24"/>
+
+    <item
+        android:id="@+id/shorts"
+        android:title="Maps"
+        android:icon="@drawable/baseline_add_location_alt_24"
+
+        />
+
+
+    <item
+        android:id="@+id/video"
+        android:title="Video"
+        android:icon="@drawable/baseline_live_tv_24"/>
+    <item
+        android:id="@+id/rating"
+        android:title="Rating"
+        android:icon="@drawable/star"/>
+
+    <item
+        android:id="@+id/library"
+        android:title="Library"
+        android:icon="@drawable/baseline_library_add_24" />
+
+
+
+</menu>

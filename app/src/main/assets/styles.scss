@@ -1,0 +1,30 @@
+.animation-element {
+  opacity: 0;
+  transform: translateY(-50px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0; /* Background color for the whole app */
+
+  h1 {
+    font-size: 2rem; /* Reduce the font size */
+    text-align: center;
+    color: #5e35b1; /* Text color */
+    margin: 10px 0; /* Adjust margin */
+    padding: 0; /* Remove padding */
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Box shadow effect */
+  }
+
+  img {
+    width: 100px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+}
